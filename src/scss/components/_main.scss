@@ -1,0 +1,35 @@
+.main {
+    display: flex;
+    margin: 2rem 0;
+
+    &__content {
+        max-width: 50%;
+        h1 {
+            color: #000;
+            font-size: 4rem;
+            line-height: .9;
+            .yellow {
+                color: #f1af12;
+            }
+        }
+
+        p {
+            margin: 1rem 0;
+        }
+
+        &_rating {
+            margin-top: .5rem;
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+    }
+
+    &__card {
+        img {
+            display: block;
+            max-width: 100%;
+            width: 100%;
+        }
+    }
+}

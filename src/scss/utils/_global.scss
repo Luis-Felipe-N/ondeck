@@ -1,0 +1,31 @@
+@import './mixins';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary: #f1eae2;
+    --color-secondary: #123316;
+
+    --color-text: #6f6d69b9;
+}
+
+body {
+    background-color: #f1eae2;
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-text);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.btn-green {
+    @include btn;
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+}

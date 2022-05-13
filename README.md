@@ -1,34 +1,54 @@
+<h1 align="center">
+    <a href="https://Ondeck.luisnunes.me/">🔗 Ondeck</a>
+</h1>
 
-# Welcome to Codewell! 👋
+<p align="center">Site de chamadas de vídeos  remota</p>
 
-Codewell's aim is to provide you with real-world design templates that you can use to practice your HTML and CSS projects. 
+<p align="center">
+  <img  src="https://img.shields.io/github/issues/Luis-Felipe-N/ondeck" alt="issues">
+  <img  src="https://img.shields.io/github/forks/Luis-Felipe-N/ondeck?color=f1eae2&style=plastic" alt="forks">
+  <img  src="https://img.shields.io/github/stars/Luis-Felipe-N/ondeck?color=f1eae2" alt="stars">
+</p>
 
-Free or paid, all templates are high quality and will make great portfolio pieces.
+<h4 align="center"> 
+	Constrindo
+</h4>
 
-### I've completed the challenge, now what?
+<p align="center">
+ <a href="#Technologies">Technologies</a> •
+ <a href="#Getting-started">Getting started</a> •
+ <a href="#autor">Autor</a>
+</p>
 
-We recommend using one of these two websites to deploy your projects
-
-- [GitHub Pages](https://pages.github.com/)
-- [Netlify](https://www.netlify.com/)
-
-They're super easy to setup and you should have your website up and running in no time, just follow their instructions.
+![Imagem de exemplo da aplicação](./Design/LandingPage.png)
 
 
-### Submit your solution to Codewell
+## Technologies
 
-Visit the relevant challenge on [Codewell](https://codewell.cc) and click on 'Submit Solution' right under the challenge.
-Enter all the title, Github repo URL, Live URL (Netlify or GH Pages), and tell the community what challenges you've faced.
+This project was developed using the following technologies:
 
-### Join our community on Slack
+- SASS
+- JS
 
-If you want more real-time communication, you can visit our community on [Slack](https://join.slack.com/t/codewell-hq/shared_invite/zt-ni8c9g8h-gNYWrmqQ3Uh37dcLg9~LMQ). 
 
-### Wes Bos's Javascript30
+## Getting started
 
-This challenge is best coupled with Day 22 of Wes Bos's [Javascript30](https://javascript30.com) course. 
+Clone the project and access the folder.
 
-### Fonts Used
+```bash
+$ https://github.com/Luis-Felipe-N/ondeck.git
+$ cd ondeck
+```
 
-https://fonts.google.com/specimen/Inter
-# oneck
+Use the extension 'Liver server' to run app in http://127.0.0.1:5500/index.html.
+
+## Autor
+---
+
+<p align="center" href="https://blog.rocketseat.com.br/author/thiago/">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/76018201?v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Luis Felipe</b></sub></a> <a href="https://luisnunes.me" title="Luis Felipe Nunes de Carvalho">🚀</p>
+
+
+<p align="center" >Feito com ❤️ por Luis Felipe</p>

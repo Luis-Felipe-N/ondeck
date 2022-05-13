@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #f1eae2;
+  --color-secondary: #123316;
+  --color-text: #6f6d69b9;
+}
+
+body {
+  background-color: #f1eae2;
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-text);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.btn-green {
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  -webkit-transition: .2s;
+  transition: .2s;
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.5rem 0;
+}
+
+.header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+.header__menu_item a {
+  font-weight: 500;
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.header__menu_dropdown {
+  display: none;
+}
+
+.header__btns button {
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.header__btns button:hover {
+  -webkit-filter: brightness(0.9);
+          filter: brightness(0.9);
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2rem 0;
+}
+
+.main__content {
+  max-width: 50%;
+}
+
+.main__content h1 {
+  color: #000;
+  font-size: 4rem;
+  line-height: .9;
+}
+
+.main__content h1 .yellow {
+  color: #f1af12;
+}
+
+.main__content p {
+  margin: 1rem 0;
+}
+
+.main__content_rating {
+  margin-top: .5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main__card img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+
+    &__menu {
+        display: flex;
+        gap: 1rem;
+        list-style: none;
+
+        &_item {
+            a {
+                font-weight: 500;
+                color: var(--color-text);
+                text-decoration: none;
+            }
+        }
+
+        &_dropdown {
+            display: none;
+        }
+    }
+
+    &__btns {
+        button {
+            @include btn;
+
+            &:hover {
+                filter: brightness(.9);
+            }
+        }
+    }
+}
